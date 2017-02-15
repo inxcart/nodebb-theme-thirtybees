@@ -2,6 +2,29 @@
 
 <div class="row">
 	<!-- IF allowLocalLogin -->
+	    <script type="text/javascript">
+    (function() {
+
+function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+}
+
+      if (!getUrlParameter('local')) {
+        window.location = 'https://forum.thirtybees.com/auth/wordpress';
+      }
+    })();
+    </script>
 	<div class="<!-- IF alternate_logins -->col-md-6<!-- ELSE -->col-md-12<!-- ENDIF alternate_logins -->">
 		<div class="login-block">
 			<div class="alert alert-danger" id="login-error-notify" <!-- IF error -->style="display:block"<!-- ELSE -->style="display: none;"<!-- ENDIF error -->>
