@@ -118,7 +118,11 @@
 				<div component="flag/notes">
 					<!-- IF !notes.length -->
 					<div class="alert alert-success text-center">[[flags:no-notes]]</div>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 					<!-- ENDIF !notes.length -->
+=======
+					<!-- ENDIF !notes.length --> 
+>>>>>>> Initial commit
 					<!-- BEGIN notes -->
 					<div class="media">
 						<div class="media-left">
@@ -144,12 +148,21 @@
 			<div class="col-sm-6 col-md-4">
 				<label>[[flags:quick-links]]</label>
 				<ul>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 					<li><a href="{config.relative_path}/{type_path}/{targetId}">[[flags:go-to-target]]</a></li>
 					<li>
 						[[flags:flagged-user]]
 						<ul>
 							<li><a href="{config.relative_path}/uid/{target.uid}">[[flags:view-profile]]</a></li>
 							<li><a href="#" data-chat="{target.uid}">[[flags:start-new-chat]]</a></li>
+=======
+					<li><a href="{config.relative_path}/{type}/{targetId}">[[flags:go-to-target]]</a></li>
+					<li>
+						[[flags:flagged-user]]
+						<ul>
+							<li><a href="{config.relative_path}/uid/{target.user.uid}">[[flags:view-profile]]</a></li>
+							<li><a href="#" data-chat="{target.user.uid}">[[flags:start-new-chat]]</a></li>
+>>>>>>> Initial commit
 						</ul>
 					</li>
 					<li>

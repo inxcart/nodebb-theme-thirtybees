@@ -3,6 +3,7 @@
 
 	<!-- IMPORT partials/breadcrumbs.tpl -->
 
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 	<div class="btn-toolbar">
 		<div class="dropdown pull-right">
 			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="true">
@@ -30,6 +31,16 @@
 				<!-- END filters -->
 			</ul>
 		</div>
+=======
+	<div class="dropdown pull-right visible-xs-block">
+		<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+			<i class="fa fa-eye"></i>
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu1">
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#" data-ajaxify="false" component="notifications/mark_all">[[notifications:mark_all_read]]</a></li>
+		</ul>
+>>>>>>> Initial commit
 	</div>
 
 	<hr />
@@ -58,7 +69,10 @@
 		</li>
 	<!-- END notifications -->
 	</ul>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 	<!-- IMPORT partials/paginator.tpl -->
+=======
+>>>>>>> Initial commit
 </div>
 
 

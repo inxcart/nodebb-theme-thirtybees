@@ -3,11 +3,15 @@
 		<div class="list-group media">
 			<button type="button" class="list-group-item" data-type="default">
 				<div class="media-left">
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 					<!-- IF defaultAvatar -->
 					<img class="media-object" src="{defaultAvatar}"  />
 					<!-- ELSE -->
 					<div class="user-icon media-object" style="background-color: {icon.bgColor};">{icon.text}</div>
 					<!-- ENDIF defaultAvatar -->
+=======
+					<div class="user-icon media-object"></div>
+>>>>>>> Initial commit
 				</div>
 				<div class="media-body">
 					<h4 class="media-heading">[[user:default_picture]]</h4>

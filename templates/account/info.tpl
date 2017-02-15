@@ -144,6 +144,7 @@
 					<h3 class="panel-title">[[user:info.moderation-note]]</h3>
 				</div>
 				<div class="panel-body">
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 					<textarea component="account/moderation-note" class="form-control"></textarea>
 					<br/>
 					<button class="btn btn-sm pull-right btn-success" component="account/save-moderation-note">[[user:info.moderation-note.add]]</button>
@@ -181,6 +182,11 @@
 						<!-- END moderationNotes -->
 					</div>
 					<!-- IMPORT partials/paginator.tpl -->
+=======
+					<textarea component="account/moderation-note" class="form-control">{moderationNote}</textarea>
+					<br/>
+					<button class="btn btn-sm pull-right btn-success" component="account/save-moderation-note">[[global:save]]</button>
+>>>>>>> Initial commit
 				</div>
 			</div>
 			<!-- ENDIF isAdminOrGlobalModerator -->

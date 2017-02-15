@@ -1,3 +1,4 @@
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 <!-- IMPORT partials/breadcrumbs.tpl -->
 <div widget-area="header">
 	<!-- BEGIN widgets.header -->
@@ -5,6 +6,11 @@
 	<!-- END widgets.header -->
 </div>
 <div class="tags">
+=======
+<div class="tags">
+	<!-- IMPORT partials/breadcrumbs.tpl -->
+
+>>>>>>> Initial commit
 	<!-- IF tags.length -->
 	<div class="row">
 		<div class="col-lg-12">

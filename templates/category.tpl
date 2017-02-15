@@ -1,4 +1,5 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 <div widget-area="header">
 	<!-- BEGIN widgets.header -->
 	{{widgets.header.html}}
@@ -6,6 +7,11 @@
 </div>
 <div class="row">
 	<div class="category <!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
+=======
+<div widget-area="header"></div>
+<div class="row">
+	<div class="category col-lg-12 col-sm-12" has-widget-class="category col-lg-9 col-sm-12" has-widget-target="sidebar">
+>>>>>>> Initial commit
 		<!-- IMPORT partials/category/subcategory.tpl -->
 
 		<!-- IF children.length --><hr class="hidden-xs"/><!-- ENDIF children.length -->
@@ -42,6 +48,7 @@
 			<!-- IMPORT partials/paginator.tpl -->
 		<!-- ENDIF config.usePagination -->
 	</div>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 	<div widget-area="sidebar" class="col-lg-3 col-sm-12 <!-- IF !widgets.sidebar.length -->hidden<!-- ENDIF !widgets.sidebar.length -->">
 		<!-- BEGIN widgets.sidebar -->
 		{{widgets.sidebar.html}}
@@ -53,6 +60,11 @@
 	{{widgets.footer.html}}
 	<!-- END widgets.footer -->
 </div>
+=======
+	<div widget-area="sidebar" class="col-lg-3 col-sm-12 hidden"></div>
+</div>
+<div widget-area="footer"></div>
+>>>>>>> Initial commit
 
 <!-- IMPORT partials/move_thread_modal.tpl -->
 

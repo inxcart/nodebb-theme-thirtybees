@@ -1,4 +1,5 @@
 {
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
   "name": "nodebb-theme-persona",
   "version": "5.0.21",
   "nbbpm": {
@@ -17,6 +18,57 @@
     "bootstrap",
     "responsive"
   ],
+=======
+  "_args": [
+    [
+      {
+        "raw": "nodebb-theme-persona@4.2.0",
+        "scope": null,
+        "escapedName": "nodebb-theme-persona",
+        "name": "nodebb-theme-persona",
+        "rawSpec": "4.2.0",
+        "spec": "4.2.0",
+        "type": "version"
+      },
+      "/var/www/vhosts/thirtybees.com/forum.thirtybees.com"
+    ]
+  ],
+  "_from": "nodebb-theme-persona@4.2.0",
+  "_id": "nodebb-theme-persona@4.2.0",
+  "_inCache": true,
+  "_location": "/nodebb-theme-persona",
+  "_nodeVersion": "6.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nodebb-theme-persona-4.2.0.tgz_1486502614658_0.14286171225830913"
+  },
+  "_npmUser": {
+    "name": "julianlam",
+    "email": "julian@designcreateplay.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nodebb-theme-persona@4.2.0",
+    "scope": null,
+    "escapedName": "nodebb-theme-persona",
+    "name": "nodebb-theme-persona",
+    "rawSpec": "4.2.0",
+    "spec": "4.2.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nodebb-theme-persona/-/nodebb-theme-persona-4.2.0.tgz",
+  "_shasum": "da3352b5dca985009759ade57ef2bb4b893d19de",
+  "_shrinkwrap": null,
+  "_spec": "nodebb-theme-persona@4.2.0",
+  "_where": "/var/www/vhosts/thirtybees.com/forum.thirtybees.com",
+  "bugs": {
+    "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
+  },
+>>>>>>> Initial commit
   "contributors": [
     {
       "name": "Andrew Rodrigues",
@@ -34,8 +86,48 @@
       "url": "https://github.com/barisusakli"
     }
   ],
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
   }
+=======
+  "dependencies": {},
+  "description": "Persona theme for NodeBB",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "da3352b5dca985009759ade57ef2bb4b893d19de",
+    "tarball": "https://registry.npmjs.org/nodebb-theme-persona/-/nodebb-theme-persona-4.2.0.tgz"
+  },
+  "gitHead": "9e8a483e230e5ad218c853691d153e3e3163e612",
+  "homepage": "https://github.com/psychobunny/nodebb-theme-persona#readme",
+  "keywords": [
+    "nodebb",
+    "theme",
+    "forum",
+    "bootstrap",
+    "responsive"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "theme.less",
+  "maintainers": [
+    {
+      "name": "baris",
+      "email": "barisusakli@gmail.com"
+    }
+  ],
+  "name": "nodebb-theme-persona",
+  "nbbpm": {
+    "compatibility": "^0.8.2 || ^0.9.0 || ^1.0.0"
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psychobunny/nodebb-theme-persona.git"
+  },
+  "scripts": {},
+  "version": "4.2.0"
+>>>>>>> Initial commit
 }

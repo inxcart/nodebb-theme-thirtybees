@@ -1,3 +1,4 @@
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 <!-- IMPORT partials/breadcrumbs.tpl -->
 <div widget-area="header">
 	<!-- BEGIN widgets.header -->
@@ -5,6 +6,12 @@
 	<!-- END widgets.header -->
 </div>
 <div class="users">
+=======
+<div class="users">
+
+	<!-- IMPORT partials/breadcrumbs.tpl -->
+
+>>>>>>> Initial commit
 	<div class="row">
 		<div class="col-lg-6">
 		<!-- IMPORT partials/users_list_menu.tpl -->

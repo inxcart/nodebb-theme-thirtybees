@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 <html lang="{function.localeToHTML, userLang, defaultLang}" <!-- IF languageDirection -->data-dir="{languageDirection}" style="direction: {languageDirection};" <!-- ENDIF languageDirection --> >
 <head>
 	<title>{browserTitle}</title>
@@ -7,6 +8,23 @@
 	<!-- IF bootswatchCSS --><link id="bootswatchCSS" href="{bootswatchCSS}" rel="stylesheet" media="screen"><!-- ENDIF bootswatchCSS -->
 	<!-- BEGIN linkTags -->{function.buildLinkTag}<!-- END linkTags -->
 
+=======
+<html lang="{function.localeToHTML, defaultLang}">
+<head>
+	<title>{browserTitle}</title>
+	<!-- BEGIN metaTags -->{function.buildMetaTag}<!-- END metaTags -->
+	<link rel="stylesheet" type="text/css" href="{relative_path}/stylesheet.css?{config.cache-buster}" />
+	<!-- IF bootswatchCSS --><link id="bootswatchCSS" href="{bootswatchCSS}" rel="stylesheet" media="screen"><!-- ENDIF bootswatchCSS -->
+	<!-- BEGIN linkTags -->{function.buildLinkTag}<!-- END linkTags -->
+
+	<!--[if lt IE 9]>
+  		<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/2.3.0/es5-shim.min.js"></script>
+  		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+  		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  		<script>__lt_ie_9__ = 1;</script>
+	<![endif]-->
+
+>>>>>>> Initial commit
 	<script>
 		var RELATIVE_PATH = "{relative_path}";
 		var config = JSON.parse('{{configJSON}}');
@@ -16,7 +34,11 @@
 		};
 	</script>
 
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 	<script src="{relative_path}/assets/nodebb.min.js?{config.cache-buster}"></script>
+=======
+	<script src="{relative_path}/nodebb.min.js?{config.cache-buster}"></script>
+>>>>>>> Initial commit
 
 	<!-- BEGIN scripts -->
 	<script type="text/javascript" src="{scripts.src}"></script>

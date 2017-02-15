@@ -84,6 +84,7 @@
 	</small>
 
 	<!-- IF !hideReplies -->
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 	<a component="post/reply-count" href="#" class="threaded-replies no-select <!-- IF !posts.replies.count -->hidden<!-- ENDIF !posts.replies.count -->">
 		<span component="post/reply-count/avatars" class="avatars <!-- IF posts.replies.hasMore -->hasMore<!-- ENDIF posts.replies.hasMore -->">
 			<!-- BEGIN posts.replies.users -->
@@ -101,6 +102,13 @@
 		<i class="fa fa-fw fa-chevron-right" component="post/replies/open"></i>
 		<i class="fa fa-fw fa-chevron-down hidden" component="post/replies/close"></i>
 		<i class="fa fa-fw fa-spin fa-spinner hidden" component="post/replies/loading"></i>
+=======
+	<a component="post/reply-count" href="#" class="no-select <!-- IF !posts.replies -->hidden<!-- ENDIF !posts.replies -->">
+		<i class="fa fa-fw fa-chevron-right" component="post/replies/open"></i>
+		<i class="fa fa-fw fa-chevron-down hidden" component="post/replies/close"></i>
+		<i class="fa fa-fw fa-spin fa-spinner hidden" component="post/replies/loading"></i>
+		<span component="post/reply-count/text" data-replies="{posts.replies}">[[topic:replies_to_this_post, {posts.replies}]]</span>
+>>>>>>> Initial commit
 	</a>
 	<!-- ENDIF !hideReplies -->
 </div>

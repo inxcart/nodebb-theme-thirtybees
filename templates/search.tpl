@@ -97,7 +97,11 @@
 							<div class="row">
 								<div class="col-md-6">
 									<select id="post-sort-by" class="form-control">
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 										<option value="relevance">[[search:relevance]]</option>
+=======
+										<option value=""></option>
+>>>>>>> Initial commit
 										<option value="timestamp">[[search:post-time]]</option>
 										<option value="teaser.timestamp">[[search:last-reply-time]]</option>
 										<option value="topic.title">[[search:topic-title]]</option>

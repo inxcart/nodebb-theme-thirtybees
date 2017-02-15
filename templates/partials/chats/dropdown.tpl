@@ -30,5 +30,9 @@
 </li>
 <!-- END rooms -->
 <!-- ELSE -->
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 <li class="no_active"><a href="#">[[modules:chat.no_active]]</a></li>
+=======
+<li class="no_active"><a href="#">No active chats</a></li>
+>>>>>>> Initial commit
 <!-- ENDIF rooms.length -->

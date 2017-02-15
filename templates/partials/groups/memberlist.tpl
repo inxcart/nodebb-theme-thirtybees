@@ -5,7 +5,11 @@
 
 <table component="groups/members" class="table table-striped table-hover" data-nextstart="{group.membersNextStart}">
 	<tbody>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 	<!-- BEGIN group.members -->
+=======
+	<!-- BEGIN members -->
+>>>>>>> Initial commit
 	<tr data-uid="{group.members.uid}">
 		<td>
 			<a href="{config.relative_path}/user/{group.members.userslug}">
@@ -32,6 +36,10 @@
 			<!-- ENDIF group.isOwner -->
 		</td>
 	</tr>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 	<!-- END group.members -->
+=======
+	<!-- END members -->
+>>>>>>> Initial commit
 	</tbody>
 </table>

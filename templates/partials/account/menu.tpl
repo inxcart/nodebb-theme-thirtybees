@@ -4,6 +4,7 @@
 	</button>
 	<ul class="dropdown-menu dropdown-menu-right">
 		<!-- IF !isSelf -->
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 		<!-- IF !banned -->
 		<!-- IF !config.disableChat -->
 		<li class="<!-- IF !hasPrivateChat -->hidden<!-- ENDIF !hasPrivateChat -->">
@@ -13,11 +14,27 @@
 			<a component="account/new-chat" href="#">[[user:new_chat_with, {username}]]</a>
 		</li>
 		<!-- ENDIF !config.disableChat -->
+=======
+		<!-- IF !config.disableChat -->
+		<!-- IF !banned -->
+		<!-- IF hasPrivateChat -->
+		<li>
+			<a component="account/chat" href="#">[[user:chat_with, {username}]]</a>
+		</li>
+		<!-- ENDIF hasPrivateChat -->
+		<li>
+			<a component="account/new-chat" href="#">[[user:new_chat_with, {username}]]</a>
+		</li>
+>>>>>>> Initial commit
 		<li>
 			<a component="account/flag" href="#">[[user:flag-profile]]</a>
 		</li>
 		<li class="divider"></li>
 		<!-- ENDIF !banned -->
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
+=======
+		<!-- ENDIF !config.disableChat -->
+>>>>>>> Initial commit
 		<!-- ENDIF !isSelf -->
 		<li>
 			<a href="{config.relative_path}/user/{userslug}" class="inline-block" id="profile">[[user:profile]]</a>

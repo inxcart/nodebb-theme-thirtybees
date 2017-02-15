@@ -1,4 +1,5 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 <div widget-area="header">
 	<!-- BEGIN widgets.header -->
 	{{widgets.header.html}}
@@ -6,6 +7,11 @@
 </div>
 <div class="row">
 	<div class="topic <!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
+=======
+<div widget-area="header"></div>
+<div class="row">
+	<div class="topic col-lg-12 col-sm-12" has-widget-class="topic col-lg-9 col-sm-12" has-widget-target="sidebar">
+>>>>>>> Initial commit
 
 		<h1 component="post/header" class="hidden-xs" itemprop="name">
 
@@ -17,6 +23,7 @@
 			<span class="topic-title" component="topic/title">{title}</span>
 		</h1>
 
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 		<div component="topic/deleted/message" class="alert alert-warning<!-- IF !deleted --> hidden<!-- ENDIF !deleted --> clearfix">
 			<span class="pull-left">[[topic:deleted_message]]</span>
 			<span class="pull-right">
@@ -28,6 +35,9 @@
 				<!-- ENDIF deleter -->
 			</span>
 		</div>
+=======
+		<div component="topic/deleted/message" class="alert alert-warning<!-- IF !deleted --> hidden<!-- ENDIF !deleted -->">[[topic:deleted_message]]</div>
+>>>>>>> Initial commit
 
 		<hr class="visible-xs" />
 
@@ -46,11 +56,19 @@
 				</li>
 			<!-- END posts -->
 		</ul>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 
 		<!-- IF config.enableQuickReply -->
 		<!-- IMPORT partials/topic/quickreply.tpl -->
 		<!-- ENDIF config.enableQuickReply -->
 
+=======
+		
+		<!-- IF config.enableQuickReply -->
+		<!-- IMPORT partials/topic/quickreply.tpl -->
+		<!-- ENDIF config.enableQuickReply -->
+		
+>>>>>>> Initial commit
 		<div class="post-bar">
 			<!-- IMPORT partials/post_bar.tpl -->
 		</div>
@@ -70,6 +88,7 @@
 			</div>
 		</div>
 	</div>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 	<div widget-area="sidebar" class="col-lg-3 col-sm-12 <!-- IF !widgets.sidebar.length -->hidden<!-- ENDIF !widgets.sidebar.length -->">
 		<!-- BEGIN widgets.sidebar -->
 		{{widgets.sidebar.html}}
@@ -81,6 +100,11 @@
 	{{widgets.footer.html}}
 	<!-- END widgets.footer -->
 </div>
+=======
+	<div widget-area="sidebar" class="col-lg-3 col-sm-12 hidden"></div>
+</div>
+<div widget-area="footer"></div>
+>>>>>>> Initial commit
 
 <!-- IF !config.usePagination -->
 <noscript>

@@ -124,21 +124,30 @@
 
 			<h4>[[global:privacy]]</h4>
 			<div class="well">
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 				<!-- IF !hideEmail -->
+=======
+>>>>>>> Initial commit
 				<div class="checkbox">
 					<label>
 						<input type="checkbox" data-property="showemail" <!-- IF settings.showemail -->checked <!-- ENDIF settings.showemail -->/> <strong>[[user:show_email]]</strong>
 					</label>
 				</div>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 				<!-- ENDIF !hideEmail -->
 
 				<!-- IF !hideFullname -->
+=======
+>>>>>>> Initial commit
 				<div class="checkbox">
 					<label>
 						<input type="checkbox" data-property="showfullname" <!-- IF settings.showfullname -->checked<!-- ENDIF settings.showfullname -->/> <strong>[[user:show_fullname]]</strong>
 					</label>
 				</div>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 				<!-- ENDIF !hideFullname -->
+=======
+>>>>>>> Initial commit
 				<div class="checkbox">
 					<label>
 						<input type="checkbox" data-property="restrictChat" <!-- IF settings.restrictChat -->checked<!-- ENDIF settings.restrictChat -->/> <strong>[[user:restrict_chats]]</strong>

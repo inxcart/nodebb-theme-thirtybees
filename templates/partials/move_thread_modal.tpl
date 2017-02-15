@@ -6,7 +6,19 @@
 				<h3>[[topic:move_topic]]</h3>
 			</div>
 			<div class="modal-body">
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 				<!-- IMPORT partials/category-selector.tpl -->
+=======
+				<!-- IMPORT partials/category_list.tpl -->
+
+				<p>
+					[[topic:disabled_categories_note]]
+				</p>
+				<div id="move-confirm" class="hide">
+					<hr />
+					<div class="alert alert-info">[[topic:topic_will_be_moved_to]] <strong><span id="confirm-category-name"></span></strong></div>
+				</div>
+>>>>>>> Initial commit
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal" id="move_thread_cancel">[[global:buttons.close]]</button>

@@ -108,6 +108,7 @@
 				<div class="input-group">
 					<input class="form-control" type="text" component="groups/members/invite" placeholder="[[groups:invited.search]]"/>
 					<span class="input-group-addon search-button"><i class="fa fa-search"></i></span>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 				</div>
 
 				<div class="form-group">
@@ -117,6 +118,12 @@
 				<div class="form-group">
 					<button class="btn btn-default btn-sm pull-right" component="groups/members/bulk-invite-button">[[groups:bulk-invite]]</button>
 				</div>
+=======
+				</div><br />
+
+				<textarea class="form-control" component="groups/members/bulk-invite" placeholder="[[groups:bulk-invite-instructions]]"></textarea>
+				<button class="btn btn-default btn-sm pull-right" component="groups/members/bulk-invite-button">[[groups:bulk-invite]]</button><br/><br/>
+>>>>>>> Initial commit
 
 				<table component="groups/invited" class="table table-striped table-hover">
 					<!-- IF !group.invited.length -->
@@ -162,7 +169,11 @@
 				<form component="groups/settings" role="form">
 					<div class="form-group">
 						<label for="name">[[groups:details.group_name]]</label>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 						<input <!-- IF group.system -->readonly<!-- ENDIF group.system --> class="form-control" name="name" id="name" type="text" value="{group.displayName}" />
+=======
+						<input class="form-control" name="name" id="name" type="text" value="{group.displayName}" />
+>>>>>>> Initial commit
 					</div>
 					<div class="form-group">
 						<label for="name">[[groups:details.description]]</label>
@@ -229,11 +240,15 @@
 			</div>
 		</div>
 		<!-- ENDIF group.isOwner -->
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 		<div widget-area="left">
 			<!-- BEGIN widgets.left -->
 			{{widgets.left.html}}
 			<!-- END widgets.left -->
 		</div>
+=======
+		<div widget-area="left"></div>
+>>>>>>> Initial commit
 	</div>
 	<div class="col-lg-8 col-xs-12">
 		<div class="col-lg-11">
@@ -242,10 +257,14 @@
 			<!-- ENDIF !posts.length -->
 			<!-- IMPORT partials/posts_list.tpl -->
 		</div>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 		<div widget-area="right">
 			<!-- BEGIN widgets.right -->
 			{{widgets.right.html}}
 			<!-- END widgets.right -->
 		</div>
+=======
+		<div widget-area="right"></div>
+>>>>>>> Initial commit
 	</div>
 </div>

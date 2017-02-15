@@ -4,6 +4,7 @@
 	<div class="profile row">
 		<h1 class="fullname"><!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname --></h1>
 		<h2 class="username"><!-- IF !banned -->@{username}<!-- ELSE -->[[user:banned]]<!-- ENDIF !banned --></h2>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 		<!-- IF isAdminOrGlobalModeratorOrModerator -->
 		<!-- IF banned -->
 		<div class="text-center">
@@ -15,6 +16,9 @@
 		</div>
 		<!-- ENDIF banned -->
 		<!-- ENDIF isAdminOrGlobalModeratorOrModerator -->
+=======
+
+>>>>>>> Initial commit
 
 		<!-- IF selectedGroup.slug -->
 		<div class="text-center">

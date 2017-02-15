@@ -96,18 +96,30 @@
 							</li>
 							<li role="presentation" class="divider"></li>
 							<li>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 								<a component="header/profilelink/edit" href="{relative_path}/user/{user.userslug}/edit">
+=======
+								<a href="{relative_path}/user/{user.userslug}/edit">
+>>>>>>> Initial commit
 									<i class="fa fa-fw fa-edit"></i> <span>[[user:edit-profile]]</span>
 								</a>
 							</li>
 							<li>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 								<a component="header/profilelink/settings" href="{relative_path}/user/{user.userslug}/settings">
+=======
+								<a href="{relative_path}/user/{user.userslug}/settings">
+>>>>>>> Initial commit
 									<i class="fa fa-fw fa-gear"></i> <span>[[user:settings]]</span>
 								</a>
 							</li>
 							<!-- IF showModMenu -->
 							<li role="presentation" class="divider"></li>
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 							<li class="dropdown-header">[[pages:moderator-tools]]</li>
+=======
+							<li class="dropdown-header">Moderator Tools</li>
+>>>>>>> Initial commit
 							<li>
 								<a href="{relative_path}/flags">
 									<i class="fa fa-fw fa-flag"></i> <span>[[pages:flagged-content]]</span>
@@ -179,15 +191,25 @@
 
 				<ul class="nav navbar-nav navbar-right pagination-block visible-lg visible-md">
 					<li class="dropdown">
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 						<a><i class="fa fa-angle-double-up pointer fa-fw pagetop"></i></a>
 						<a><i class="fa fa-angle-up pointer fa-fw pageup"></i></a>
+=======
+						<i class="fa fa-angle-double-up pointer fa-fw pagetop"></i>
+						<i class="fa fa-angle-up pointer fa-fw pageup"></i>
+>>>>>>> Initial commit
 
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 							<span class="pagination-text"></span>
 						</a>
 
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 						<a><i class="fa fa-angle-down pointer fa-fw pagedown"></i></a>
 						<a><i class="fa fa-angle-double-down pointer fa-fw pagebottom"></i></a>
+=======
+						<i class="fa fa-angle-down pointer fa-fw pagedown"></i>
+						<i class="fa fa-angle-double-down pointer fa-fw pagebottom"></i>
+>>>>>>> Initial commit
 
 						<div class="progress-container">
 							<div class="progress-bar"></div>
@@ -203,7 +225,11 @@
 					<!-- BEGIN navigation -->
 					<!-- IF function.displayMenuItem, @index -->
 					<li class="{navigation.class}">
+<<<<<<< 21f5032706966f11a673b8ab8664cb9ec55ba8b4
 						<a class="navigation-link" href="{navigation.route}" title="{navigation.title}" <!-- IF navigation.id -->id="{navigation.id}"<!-- ENDIF navigation.id --><!-- IF navigation.properties.targetBlank --> target="_blank"<!-- ENDIF navigation.properties.targetBlank -->>
+=======
+						<a href="{navigation.route}" title="{navigation.title}" <!-- IF navigation.id -->id="{navigation.id}"<!-- ENDIF navigation.id --><!-- IF navigation.properties.targetBlank --> target="_blank"<!-- ENDIF navigation.properties.targetBlank -->>
+>>>>>>> Initial commit
 							<!-- IF navigation.iconClass -->
 							<i class="fa fa-fw {navigation.iconClass}"></i>
 							<!-- ENDIF navigation.iconClass -->
