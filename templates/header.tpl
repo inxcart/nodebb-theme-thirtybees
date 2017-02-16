@@ -22,7 +22,7 @@
 	<script type="text/javascript" src="{scripts.src}"></script>
 	<!-- END scripts -->
 	
-	<link rel="stylesheet" type="text/css" href="http://docs.thirtybees.com/css/base-theme.css" />
+	<link rel="stylesheet" type="text/css" href="https://docs.thirtybees.com/css/base-theme.css" />
 
 	<!-- IF useCustomJS -->
 	{{customJS}}
@@ -76,7 +76,7 @@
 	</nav>
 
 	<main id="panel">
-		<nav class="navbar navbar-default navbar-fixed-top header" id="header-menu" component="navbar">
+		<nav class="navbar navbar-inverse navbar-fixed-top header" id="header-menu" component="navbar">
 			<div class="container">
 				<!-- IMPORT partials/menu.tpl -->
 			</div>
