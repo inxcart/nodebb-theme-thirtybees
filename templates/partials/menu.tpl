@@ -6,14 +6,9 @@
 					<span class="icon-bar"></span>
 				</button>
 
-				<a href="<!-- IF brand:logo:url -->{brand:logo:url}<!-- ELSE -->{relative_path}/<!-- ENDIF brand:logo:url -->">
-					<img alt="{brand:logo:alt}" class="{brand:logo:display} forum-logo" src="{brand:logo}" />
-				</a>
-				<!-- IF config.showSiteTitle -->
-				<a href="{relative_path}/">
-					<h1 class="navbar-brand forum-title">{title}</h1>
-				</a>
-				<!-- ENDIF config.showSiteTitle -->
+				<a class="navbar-brand" href="">
+                			<img src="https://docs.thirtybees.com/common_images/thirty-bees-dark.png" alt="thirty bees forum" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/forum</span>
+            			</a>
 
 				<div component="navbar/title" class="visible-xs hidden">
 					<span></span>
