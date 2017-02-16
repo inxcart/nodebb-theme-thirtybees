@@ -43,13 +43,14 @@
 	<!-- BEGIN scripts -->
 	<script type="text/javascript" src="{scripts.src}"></script>
 	<!-- END scripts -->
+	
+	<link rel="stylesheet" type="text/css" href="http://docs.thirtybees.com/css/base-theme.css" />
 
 	<!-- IF useCustomJS -->
 	{{customJS}}
 	<!-- ENDIF useCustomJS -->
 	<!-- IF useCustomCSS -->
 	<style type="text/css">{{customCSS}}</style>
-	<link rel="stylesheet" type="text/css" href="http://docs.thirtybees.com/css/base-theme.css" />
 	<!-- ENDIF useCustomCSS -->
 </head>
 
