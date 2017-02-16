@@ -49,6 +49,7 @@
 	<!-- ENDIF useCustomJS -->
 	<!-- IF useCustomCSS -->
 	<style type="text/css">{{customCSS}}</style>
+	<link rel="stylesheet" type="text/css" href="http://docs.thirtybees.com/css/base-theme.css" />
 	<!-- ENDIF useCustomCSS -->
 </head>
 
