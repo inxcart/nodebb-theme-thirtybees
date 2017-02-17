@@ -6,7 +6,7 @@
 					<span class="icon-bar"></span>
 				</button>
 
-				<a class="navbar-brand" href="">
+				<a class="navbar-brand" href="/">
                 			<img src="https://docs.thirtybees.com/common_images/thirty-bees-dark.png" alt="thirty bees forum" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/forum</span>
             			</a>
 
