@@ -11,8 +11,18 @@
 		</a>
 	</div>
 	<div class="quickreply-message">
-		<textarea component="topic/quickreply/text" class="form-control" rows="5"></textarea>
+		<textarea id="quickreply-textarea" component="topic/quickreply/text" class="form-control" rows="5"></textarea>
 	</div>
-	<button component="topic/quickreply/button" class="btn btn-primary pull-right">Post quick reply</button>
+    <span class="small"><i class="fa fa-info"></i> <em>Press <kbd>CTRL</kbd> + <kbd>Enter</kbd> to quickly reply without leaving your keyboard. Use the "Reply" button to add markup and attachments.</em></small>
+	<button id="quickreply-button" component="topic/quickreply/button" class="btn btn-primary pull-right">Post quick reply</button>
+    <script type="text/javascript">
+        (function () {
+            $("#quickreply-textarea").keydown(function(e) {
+                if (e.ctrlKey && e.keyCode == 13) {
+                    $("#quickreply-button").click();
+                }
+            });
+        }());
+    </script>
 </div>
 <!-- ENDIF loggedIn -->
