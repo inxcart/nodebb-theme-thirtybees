@@ -1,21 +1,22 @@
 {
-  "name": "nodebb-theme-persona",
+  "name": "nodebb-theme-thirtybees",
   "version": "5.0.21",
   "nbbpm": {
     "compatibility": "^1.4.4"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "thirty bees theme for NodeBB",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/thirtybees/nodebb-theme-thirtybees"
   },
   "keywords": [
     "nodebb",
     "theme",
     "forum",
     "bootstrap",
-    "responsive"
+    "responsive",
+    "thirty-bees"
   ],
   "contributors": [
     {
@@ -32,10 +33,15 @@
       "name": "Barış Soner Uşaklı",
       "email": "baris@designcreateplay.com",
       "url": "https://github.com/barisusakli"
+    },
+    {
+      "name": "Michael Dekker",
+      "email": "git@michaeldekker.nl",
+      "url": "https://github.com/firstred"
     }
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
+    "url": "https://github.com/thirtybees/nodebb-theme-thirtybees/issues"
   }
 }
