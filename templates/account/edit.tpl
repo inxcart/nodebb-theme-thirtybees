@@ -14,7 +14,7 @@
 						</div>
 					</div>
 					<ul class="list-group">
-						<a id="changePictureBtn" href="https://gravatar.com/" target="_blank" class="list-group-item">[[user:change_picture]] <i class="fa fa-external-link"></i></a>
+						<a href="https://gravatar.com/" target="_blank" class="list-group-item">[[user:change_picture]] <i class="fa fa-external-link"></i></a>
 						<!-- IF !username:disableEdit -->
 						<a href="{config.relative_path}/user/{userslug}/edit/username" class="list-group-item">[[user:change_username]]</a>
 						<!-- ENDIF !username:disableEdit -->
